@@ -13,3 +13,10 @@ filter(0);//error
 filter('abc');// ok
 
 ```
+#### some sourcecode
+```js
+type Partial<T> = { 
+  [P in keyof T]?: T[P]
+};
+
+```
